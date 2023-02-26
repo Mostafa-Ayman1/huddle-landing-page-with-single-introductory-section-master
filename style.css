@@ -73,6 +73,7 @@ h1 {
 h1 .colored {
     font-size: var(--f-800);
     background: linear-gradient(109deg, hsl(316.3, 88%, 63.9%), #d152dd);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -87,7 +88,7 @@ button {
     width: 150px;
     height: 40px;
     border: none;
-    color: rgba(0, 0, 0, 0.541);
+    color: #4E4B4E;
     border-radius: 20px;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
